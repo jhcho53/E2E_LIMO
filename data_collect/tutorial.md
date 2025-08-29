@@ -23,7 +23,7 @@
 ```bash
 pip install opencv-python-headless numpy pandas pyyaml
 
-python3 live_e2e_recorder_twist_nocrop.py \
+python3 collect.py \
   --ros-args \
   -p image_topic:=/camera/front/image_raw \
   -p image_is_compressed:=false \
