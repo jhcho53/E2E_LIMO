@@ -143,14 +143,15 @@ class LiveTwistOnlyRecorder(Node):
     def __init__(self):
         super().__init__("live_e2e_recorder_twist_nocrop")
         # Parameters (NO crop; NO resize)
-        self.declare_parameter("image_topic", "/camera/front/image_raw")
+        # self.declare_parameter("image_topic", "/camera/front/image_raw")
+        self.declare_parameter("image_topic", "/camera/color/image_raw")
         self.declare_parameter("image_is_compressed", False)
         self.declare_parameter("twist_topic", "/cmd_vel")
         self.declare_parameter("twist_is_stamped", False)
         self.declare_parameter("odom_topic", "")           # optional
         self.declare_parameter("imu_topic", "")            # optional
         self.declare_parameter("camera_info_topic", "")    # optional
-        self.declare_parameter("out_dir", "/tmp/e2e_dataset_live")
+        self.declare_parameter("out_dir", "./e2e_dataset_live")
         self.declare_parameter("delay_ms", 120.0)
         self.declare_parameter("align_tol_ms", 80.0)
         self.declare_parameter("a_max", 1.5)
