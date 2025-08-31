@@ -25,7 +25,7 @@ pip install opencv-python-headless numpy pandas pyyaml
 
 python3 collect.py \
   --ros-args \
-  -p image_topic:=/camera/front/image_raw \
+  -p image_topic:=/camera/color/image_raw \   
   -p image_is_compressed:=false \
   -p twist_topic:=/cmd_vel \
   -p twist_is_stamped:=false \
