@@ -1,0 +1,15 @@
+{
+  "out_dir": "e2e_dataset_live_05R",
+  "delay_ms": 120.0,
+  "align_tol_ms": 80.0,
+  "image_topic": "/camera/color/image_raw",
+  "image_is_compressed": false,
+  "twist_topic": "/cmd_vel",
+  "twist_is_stamped": false,
+  "odom_topic": "/odom",
+  "imu_topic": "/imu",
+  "camera_info_topic": "",
+  "save_fps_max": 15.0,
+  "image_buffer_sec": 5.0,
+  "process_hz": 30.0
+}
