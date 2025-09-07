@@ -1,0 +1,5 @@
+runs:
+  - /home/takeout/e2e_limo_ws/src/E2E_LIMO/data_collect/light_low/speed_high/e2e_dataset_live/labels__dark_fast__prepared.csv
+  - /home/takeout/e2e_limo_ws/src/E2E_LIMO/data_collect/light_low/speed_high_backward/e2e_dataset_live/labels__dark_fast_backward__prepared.csv
+  - /home/takeout/e2e_limo_ws/src/E2E_LIMO/data_collect/light_normal/speed_high/e2e_dataset_live/labels__bright_fast__prepared.csv
+  - /home/takeout/e2e_limo_ws/src/E2E_LIMO/data_collect/light_normal/speed_high_backward/e2e_dataset_live/labels__bright_fast_backward__prepared.csv
